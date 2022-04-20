@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitepure"
+    tools:context=".view.TripActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:text="WSM"
+                android:textColor="@color/whitepure"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btn_logout"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.2"
+                android:foregroundGravity="right"
+                android:padding="5dp"
+                android:src="@drawable/ic_logout" />
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_readytostart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Ready to start"
+                android:textAlignment="center" />
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_inprogress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" In Progress "
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_notverified" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" Not Yet Verified "
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.4dp"
+            android:background="@drawable/devider_line" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_aproved" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" Approved "
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/bg_decline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=" Declined"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_refresh"
+            android:id="@+id/img_refresh"
+           android:layout_marginTop="-40dp"
+            android:layout_gravity="right"
+            android:layout_width="35dp"
+            android:layout_height="35dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="5dp"
+            android:id="@+id/rcv_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/roboto_regular"
+        android:text="Start Trip"
+        android:textAllCaps="false"
+        android:textColor="@color/blue" />
+</RelativeLayout>

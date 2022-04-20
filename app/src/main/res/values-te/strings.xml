@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">wsm</string>
+    <string name="mahesh"><p><span style="color: red;">Calibrage InfoSystems</span></p></string>
+    <string name="error_net">దయచేసి మీ ఇంటర్నెట్ కనెక్షన్‌ను తనిఖీ చేయండి.....</string>
+    <string name="eror_username_empty">వినియోగదారు పేరు ఖాళీగా ఉండకూడదు</string>
+    <string name="strPpassword_empty">పాస్వర్డ్ ఖాళీగా ఉండకూడదు</string>
+    <string name="error_invalid_user">తప్పుడు వాడుకరిపేరు లేదా సంకేతపదం</string>
+    <string name="str_login">లాగిన్</string>
+    <string name="str_username">యూజర్పేరు</string>
+    <string name="str_password">పాస్వర్డ్</string>
+    <string name="str_signin">సైన్ఇన్</string>
+    <string name="str_admin_login">నిర్వాహక లాగిన్</string>
+    <string name="str_forgot_password">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+    <string name="str_submit">సమర్పించండి</string>
+    <string name="str_adminlogin">నిర్వాహకుడిగా లాగిన్ అవ్వండి</string>
+    <string name="str_driverlogin">డ్రైవర్ లాగిన్</string>
+    <string name="str_adddriverdetails">డ్రైవర్ వివరాలను జోడించండి</string>\
+    <string name="str_firstname">మొదటి పేరు</string>
+    <string name="str_middlename">మధ్య పేరు</string>
+    <string name="str_lastname">చివరి పేరు</string>
+    <string name="str_userName">సభ్యనామం</string>
+    <string name="str_email">ఇమెయిల్</string>
+    <string name="str_confirmpassword">పాస్వర్డ్ను నిర్ధారించండి</string>
+    <string name="str_mobilenumber">మొబైల్ సంఖ్య</string>
+    <string name="str_address">చిరునామా</string>
+    <string name="str_vehicleNumber">వాహన సంఖ్య</string>
+    <string name="str_adddriver">డ్రైవర్‌ను జోడించండి</string>
+    <string name="str_starttrip">ట్రిప్ ప్రారంభించండి</string>
+    <string name="str_addimage">చిత్రాన్ని జోడించండి</string>
+    <string name="str_fieldempty">ఫీల్డ్ ఖాళీగా ఉండకూడదు</string>
+    <string name="str_loginwithmanageraccount">దయచేసి మేనేజర్ ఖాతాతో లాగిన్ అవ్వండి</string>
+    <string name="str_loginwithdriveraccount">దయచేసి డ్రైవర్ ఖాతాతో లాగిన్ అవ్వండి</string>
+    <string name="str_captureimg">అనుమతి ఇవ్వబడింది దయచేసి చిత్రాన్ని తీయండి</string>
+    <string name="str_tripnotcompleted">ట్రిప్ ఇంకా పూర్తి కాలేదు</string>
+    <string name="str_tripcompleted">ట్రిప్ పూర్తయింది</string>
+    <string name="str_starttripnow">మీరు ఇప్పుడు యాత్ర ప్రారంభించలేరు</string>
+    <string name="str_tryagain">దయచేసి మళ్ళీ ప్రయత్నించండి</string>
+
+
+
+
+
+
+
+</resources>

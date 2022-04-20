@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/half_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Please Select"
+            android:textColor="@color/whitepure"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:fontFamily="@font/roboto_regular"
+            android:textAllCaps="false"
+            android:id="@+id/btn_camera"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/text_dialog"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_bg"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="From Camera"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:fontFamily="@font/roboto_regular"
+            android:textAllCaps="false"
+            android:id="@+id/btn_galley"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/text_dialog"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/button_bg"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="From Gallery"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    <Button
+        android:fontFamily="@font/roboto_regular"
+        android:textAllCaps="false"
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/b"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+
+        android:background="@drawable/button_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=  "       Cancel       "
+        android:textColor="@color/blue" />
+
+</RelativeLayout>

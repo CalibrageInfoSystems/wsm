@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">wsm</string>
+    <string name="mahesh"><p><span style="color: red;">Calibrage InfoSystems</span></p></string>
+    <string name="error_net">Please Check Your Internet Connection ...</string>
+    <string name="eror_username_empty">Username cannot be empty</string>
+    <string name="strPpassword_empty">Password cannot be empty</string>
+    <string name="error_invalid_user">invalid UserName or Password></string>
+    <string name="str_login">Login</string>
+    <string name="str_username">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_signin">SignIn</string>
+    <string name="str_admin_login">Admin Login</string>
+    <string name="str_forgot_password">Forgot password?</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_adminlogin">Login as Admin</string>
+    <string name="str_driverlogin">Driver Login</string>
+    <string name="str_adddriverdetails">Add Driver Details</string>
+    <string name="str_firstname">Firstname</string>
+    <string name="str_middlename">Middle Name</string>
+    <string name="str_lastname">Lastname</string>
+    <string name="str_userName">UserName</string>
+    <string name="str_email">Email</string>
+    <string name="str_confirmpassword">Confirm Password</string>
+    <string name="str_mobilenumber">Mobile Number</string>
+    <string name="str_address">Address</string>
+    <string name="str_vehicleNumber">Vehicle Number</string>
+    <string name="str_adddriver">Add Driver</string>
+    <string name="str_starttrip">Start Trip</string>
+    <string name="str_addimage">Add Image</string>
+    <string name="str_fieldempty">Field cannot be empty</string>
+    <string name="str_loginwithmanageraccount">Please Login with manager Account</string>
+    <string name="str_loginwithdriveraccount">Please Login with Driver Account</string>
+    <string name="str_captureimg">Permission Granted Please Capture Image</string>
+    <string name="str_tripnotcompleted"> Trip Not Yet Completed</string>
+    <string name="str_tripcompleted">Trip Completed</string>
+    <string name="str_starttripnow">You cannot start trip now</string>
+    <string name="str_tryagain">Please Try Again</string>
+
+
+
+
+
+
+
+</resources>
